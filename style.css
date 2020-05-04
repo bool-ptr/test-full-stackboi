@@ -1,0 +1,50 @@
+
+
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+    border-bottom: 2px solid olivedrab;
+    width: 300px;
+    text-align:center;
+    margin-top: 10px;
+    transition:all 0.2s;   
+}
+h1:hover{
+    transform:scale(1.05);
+}
+
+.btn-outline-success{
+    background-color: hotpink;
+}
+
+img{
+    widows: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 0.2s;
+}
+img:hover{
+    transform:scale(1.05 );
+}
+.btn-outline-success:hover{
+    border-color: hotpink;
+    background-color: pink;
+}
+
+footer{
+    clear:both;
+    text-align:center;
+}
+body {
+    background-image: url("./bruh.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bruh{
+    /* padding: 1rem 2rem; */
+    border: none;
+    border-radius:200px;
+}
